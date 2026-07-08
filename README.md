@@ -65,17 +65,18 @@ Key entities include:
 - Database Normalization
 - Relational Database Design
 
-## Repository Structure
-
 ```text
-FarmerCooperative_CropSupply_ManagementSystem/
+farmer-cooperative-crop-supply-system/
 │
 ├── README.md
-├── schema.sql
+├── DDL_Script.sql
 ├── FCCSS_Insert_Script.sql
 ├── FCCSS_Queries.sql
-└── database_design.pdf
+├── RELATIONAL-SCHEMA.pdf
+├── ER_DIAGRAM.PDF
+└── FDs_MinimalFDs_Normalization.pdf
 ```
+
 
 ## Setup Instructions
 
@@ -94,7 +95,7 @@ CREATE DATABASE fccss;
 3. Run the schema script:
 
 ```bash
-psql -d fccss -f schema.sql
+psql -d fccss -f DDL_SCRIPT.sql
 ```
 
 4. Insert sample data:
@@ -121,3 +122,7 @@ psql -d fccss -f FCCSS_Queries.sql
 ## Contributors
 
 - Devarshi
+- Arpit
+- Kavya
+- Diya
+- Het
